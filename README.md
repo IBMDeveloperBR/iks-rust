@@ -3,7 +3,7 @@
 Compilando código Rust em um binário estático usando Docker (cross-compiling), e implantando-o com uma imagem levíssima (Alpine) em um cluster IKS.
 
 - x86_64-unknown-linux-musl static binary [OK]
-- x86_64-linux-musl-gcc static binary [FAZER!] <- Por hora não é possível gerar um binário estático caso o pacote Rust dependa de bibliotecas C (elas devem ser instaladas na imagem Alpine, ou o musl-gcc deve ser configurado corretamente e utilizado para compilar o binário.
+- x86_64-linux-musl-gcc static binary [FAZER!] <- Por hora não é possível gerar um binário estático caso o pacote Rust dependa de bibliotecas C (elas devem ser instaladas na imagem Alpine, ou o musl-gcc deve ser configurado corretamente e utilizado para compilar o binário).
 
 ## Passos:
 
