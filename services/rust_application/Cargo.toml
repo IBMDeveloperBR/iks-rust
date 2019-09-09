@@ -1,0 +1,8 @@
+[package]
+name = "rust_application"
+version = "0.1.0"
+authors = ["vnderlev <munhoz@protonmail.ch>"]
+edition = "2018"
+
+#[dependencies]
+#hwloc = "0.5.0"
