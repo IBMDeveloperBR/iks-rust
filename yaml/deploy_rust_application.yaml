@@ -1,0 +1,11 @@
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: rust-application
+  namespace: default
+spec:
+  containers:
+  - image: us.icr.io/ibmdegla-cr-namespace/rust-application
+    imagePullPolicy: Always
+    name: rust-application
